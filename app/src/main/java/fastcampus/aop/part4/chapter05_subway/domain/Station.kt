@@ -1,9 +1,11 @@
-package fastcampus.aop.part4.chapter05_subway.domain
+package fastcampus.aop.part5.chapter05.domain
 
 import android.os.Parcelable
+import kotlinx.android.parcel.Parcelize
 
-class Station {
-
-}
-
-
+@Parcelize
+data class Station(
+    val name: String,
+    val isFavorited: Boolean,
+    val connectedSubways: List<Subway>
+) : Parcelable
