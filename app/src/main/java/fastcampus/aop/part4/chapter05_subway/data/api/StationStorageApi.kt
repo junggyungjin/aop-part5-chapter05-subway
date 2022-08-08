@@ -1,8 +1,8 @@
-package fastcampus.aop.part5.chapter05.data.api
+package fastcampus.aop.part4.chapter05_subway.data.api
 
 import com.google.firebase.storage.FirebaseStorage
-import fastcampus.aop.part5.chapter05.data.db.entity.StationEntity
-import fastcampus.aop.part5.chapter05.data.db.entity.SubwayEntity
+import fastcampus.aop.part4.chapter05_subway.data.db.entity.StationEntity
+import fastcampus.aop.part4.chapter05_subway.data.db.entity.SubwayEntity
 import kotlinx.coroutines.tasks.await
 
 class StationStorageApi(

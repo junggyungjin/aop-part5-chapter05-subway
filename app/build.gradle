@@ -17,6 +17,8 @@ android {
         versionName "1.0"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+
+        buildConfigField "String", "SEOUL_API_ACCESS_KEY", project.properties["SEOUL_API_ACCESS_KEY"]
     }
 
     buildTypes {
@@ -66,9 +68,14 @@ dependencies {
     implementation 'com.google.firebase:firebase-storage-ktx'
 
     // Jetpack Room
-    implementation 'androidx.room:room-runtime:2.3.0'
-    implementation 'androidx.room:room-ktx:2.3.0'
-    kapt 'androidx.room:room-compiler:2.3.0'
+//    implementation 'androidx.room:room-runtime:2.3.0'
+//    implementation 'androidx.room:room-ktx:2.3.0'
+//    kapt 'androidx.room:room-compiler:2.3.0'
+
+    implementation "androidx.room:room-runtime:2.5.0-alpha02"
+    implementation 'androidx.room:room-ktx:2.5.0-alpha02'
+    annotationProcessor "androidx.room:room-compiler:2.5.0-alpha02"
+    kapt 'androidx.room:room-compiler:2.5.0-alpha02'
 
     // Coroutine
     implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.4.3'

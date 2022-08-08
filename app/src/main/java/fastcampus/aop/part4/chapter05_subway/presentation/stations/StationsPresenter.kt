@@ -1,8 +1,8 @@
-package fastcampus.aop.part5.chapter05.presentation.stations
+package fastcampus.aop.part4.chapter05_subway.presentation.stations
 
 import fastcampus.aop.part4.chapter05_subway.data.repository.StationRepository
+import fastcampus.aop.part4.chapter05_subway.domain.Station
 import fastcampus.aop.part4.chapter05_subway.presentation.stations.StationsContract
-import fastcampus.aop.part5.chapter05.domain.Station
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.MainScope
 import kotlinx.coroutines.flow.*

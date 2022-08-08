@@ -1,4 +1,4 @@
-package fastcampus.aop.part5.chapter05.data.preference
+package fastcampus.aop.part4.chapter05_subway.data.preference
 
 import android.content.SharedPreferences
 import androidx.core.content.edit

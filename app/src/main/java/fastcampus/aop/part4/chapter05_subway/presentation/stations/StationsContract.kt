@@ -1,8 +1,8 @@
 package fastcampus.aop.part4.chapter05_subway.presentation.stations
 
+import fastcampus.aop.part4.chapter05_subway.domain.Station
 import fastcampus.aop.part4.chapter05_subway.presentation.BasePresenter
 import fastcampus.aop.part4.chapter05_subway.presentation.BaseView
-import fastcampus.aop.part5.chapter05.domain.Station
 
 interface StationsContract {
 

@@ -1,4 +1,4 @@
-package fastcampus.aop.part5.chapter05.domain
+package fastcampus.aop.part4.chapter05_subway.domain
 
 data class ArrivalInformation(
     val subway: Subway,

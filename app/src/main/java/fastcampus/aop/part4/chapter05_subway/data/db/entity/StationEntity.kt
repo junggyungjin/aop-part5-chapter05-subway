@@ -1,4 +1,4 @@
-package fastcampus.aop.part5.chapter05.data.db.entity
+package fastcampus.aop.part4.chapter05_subway.data.db.entity
 
 import androidx.room.*
 

@@ -3,6 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="fastcampus.aop.part4.chapter05_subway">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:name=".SubwayApplication"
         android:allowBackup="true"

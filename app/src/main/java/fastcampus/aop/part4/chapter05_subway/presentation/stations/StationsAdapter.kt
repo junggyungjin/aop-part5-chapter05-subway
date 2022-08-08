@@ -1,14 +1,13 @@
-package fastcampus.aop.part5.chapter05.presentation.stations
+package fastcampus.aop.part4.chapter05_subway.presentation.stations
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import android.widget.LinearLayout
 import androidx.recyclerview.widget.RecyclerView
 import fastcampus.aop.part4.chapter05_subway.databinding.ItemStationBinding
-import fastcampus.aop.part5.chapter05.databinding.ItemStationBinding
-import fastcampus.aop.part5.chapter05.domain.Station
-import fastcampus.aop.part5.chapter05.extension.dip
-import fastcampus.aop.part5.chapter05.presentation.view.Badge
+import fastcampus.aop.part4.chapter05_subway.domain.Station
+import fastcampus.aop.part4.chapter05_subway.extension.dip
+import fastcampus.aop.part4.chapter05_subway.presentation.view.Badge
 
 class StationsAdapter : RecyclerView.Adapter<StationsAdapter.ViewHolder>() {
 

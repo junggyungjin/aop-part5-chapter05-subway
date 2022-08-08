@@ -1,4 +1,4 @@
-package fastcampus.aop.part5.chapter05.domain
+package fastcampus.aop.part4.chapter05_subway.domain
 
 import android.graphics.Color
 import androidx.annotation.ColorInt
